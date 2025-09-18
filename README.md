@@ -2,12 +2,13 @@
 
 The goal of the project is to develop a RAG system/AI bot that can answer questions about a chosen subject. The bot should be able to retrieve information out of a self made database, use tools and have session memory. The Bot also needs to be trackable and deployed, and allow for speech to text input and text to speech output.
 
-I chose to make a chatbot that can assist in growing your own fruits and vegetables. Which I named: 🌱 GrowGuide 🌱
+I chose to make a chatbot that can assist in growing your own fruits and vegetables.  
+Which I named: 🌱 GrowGuide 🌱
 
 Full project guidelines can be found here 👇  
 https://github.com/ironhack-labs/project-3-business-case-multimodal-ai-chatbot-for-yt-video-qa
 
-Skip to deployment directly here 👇
+Skip to deployment directly here 👇  
 https://huggingface.co/spaces/DaanBooy/GrowGuide
 
 Could be that this space has been set to private in the future to avoid token usage. If so and you would still like to try it out, then feel free to contact me.
@@ -71,7 +72,7 @@ pip install -r requirements.txt
 **Data Preparation**  
 Run `data_prep.ipynb` to preprocess the data set and create the vector storage. Can be skipped if by using `/chroma_growguide/` directly
 
-**QA Chain**
+**QA Chain**  
 Run `QA_model` to load vector storage, make tools, wrap in to agent, test and evaluate.
 
 **Deployment**  
