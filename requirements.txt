@@ -1,0 +1,14 @@
+gradio>=4.36.0
+openai>=1.40.0
+langchain>=0.2.10
+langchain-openai>=0.1.21
+langchain-community>=0.2.10
+chromadb>=0.5.5
+fpdf2>=2.7.7
+requests>=2.31.0
+tiktoken>=0.7.0
+sentence-transformers>=2.7.0
+serpapi>=0.1.5
+python-dotenv>=1.0.1
+lark>=1.1.9
+google-search-results==2.4.2
